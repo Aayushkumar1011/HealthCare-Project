@@ -1,0 +1,176 @@
+
+body {
+	background-color: #EEE;
+	margin-top:0px;
+	
+	/* Fonts */
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid #B0B0B0;
+}
+
+h3 {
+	background-color: #F3F3F3;
+	padding: 10px;
+	
+	border-top: 1px solid #B0B0B0 ;
+	border-bottom: 1px solid #B0B0B0 ;
+}
+
+#page-container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+#topBar {
+	height:45px;
+	background-color:#2e368b;
+	
+}
+
+#headerBar {
+	height:110px;
+	background: #FFF url("../images/layout/container_bck.png") repeat-x left top ;
+	border-bottom: 1px solid #EEE;
+}
+
+.headerBarTitle {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.75em;
+	display: block;
+}
+
+.headerBarTitle span {
+	color: #B25800;
+	margin: 0;
+	font-size: 1.2em;
+	display: block;
+}
+
+#tagline {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 0.75em;
+}
+
+#headerBarSeal {
+	float: left;
+	text-align: center;
+	padding-right: 6px;
+	border-right: 1px solid #E9E9E9;
+}
+
+#headerBarContent {
+	padding-left: 6px;
+	float: left;
+}
+
+#footerBar {
+	height:75px;				
+	border-top:solid #dfdfdf 1px;
+}
+
+#bottomBar {
+	height:14px;
+	background-color:#000000;
+}
+
+/** Media Queries **/
+@media (max-width: 1023px) {
+	#page-container {
+		width: auto;
+	}
+}
+
+@media (max-width: 700px) {
+	#page-container {
+		width: auto;
+	}
+
+	#headerBar {
+		width: 100%;
+		height: auto !important;
+		text-align: center;
+		background: #F8F8F8 !important;
+		padding-bottom: 5px;
+	}
+
+	#headerBarContent {
+		width: 100%;
+	}
+
+	#headerBarSeal {
+		width: 100%;
+		border: 0 !important; 
+		margin-bottom: 5px;
+	}
+
+	.pure-form input[type="text"],
+	.pure-form select,
+	.pure-form textarea	{
+		width: 100% !important;
+	}
+
+}
+/** END: Media Queries **/
+
+.center {
+	text-align: center;
+}
+
+.left-label {
+	text-align: center;
+	padding-top: 0.75em;
+}
+
+.content {
+	padding: 10px;
+}
+
+.footerContent {
+	font-family: Arial,Helvetica;
+	font-size: 0.75em;									
+}
+
+.errors { 
+	padding:.5em;
+	border-style: solid; 
+	border-width: 1px; 
+	text-align:left; 
+	margin-top: 1em; 
+	margin-bottom: 1em;
+	border-color: #c00; 
+	background-color: #fcc;
+}
+
+/* Field Element Styles */
+
+/* Input instructions for regular and responsive grids */
+.pure-g div .input-ins,
+.pure-g-r div .input-ins {
+	font-size: 75%;
+	color: #aaa;
+}
+
+div.inner-group > div {
+	margin-bottom: 0 !important; 
+}
+
+div.caveat-text {
+	margin: 5px 0 5px 0;
+	font-size: 75%;
+}
+
+#contentBody .pure-g-r > div  {
+	margin-bottom: 0.75em;
+}
